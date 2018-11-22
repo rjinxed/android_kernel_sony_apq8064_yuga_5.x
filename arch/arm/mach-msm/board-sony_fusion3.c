@@ -3245,11 +3245,11 @@ static struct msm_thermal_data msm_thermal_pdata = {
 	.sensor_id = 0,
 	.poll_ms = 500,
 	.throttle_poll_ms = 250,
-	.shutdown_temp = 75,
+	.shutdown_temp = 90,
 
-	.allowed_high_temp = 70,
-	.allowed_high_rel_temp = 65,
-	.allowed_high_freq = 810000,
+	.allowed_high_temp = 80,
+	.allowed_high_rel_temp = 75,
+	.allowed_high_freq = 1134000,
 
 	.allowed_low_temp = 65,
 	.allowed_low_rel_temp = 60,
